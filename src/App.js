@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Greeting from '../components/greetings.js;'
+import { Greeting } from './Greeting'
 
 const App = () => {
   return (
-  <Greeting />
+    <>
+    <Greeting name="Rod" favNumber="22"/>
+    <Greeting name = "Yuliya" favHusband = "Rod"/>
+    </>
   );
 }
 
